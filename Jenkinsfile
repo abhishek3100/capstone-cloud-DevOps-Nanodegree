@@ -26,7 +26,7 @@ pipeline{
 				}
 			}
 		}
-
+/*
 		stage('Create kubernetes cluster') {
 			steps {
 				withAWS(region:'us-east-1', credentials:'Aws') {
@@ -39,7 +39,7 @@ pipeline{
 				}
 			}
 		}
-
+*/
 		stage('Create conf file cluster') {
 			steps {
 				withAWS(region:'us-east-1', credentials:'Aws') {
