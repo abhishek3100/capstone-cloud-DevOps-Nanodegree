@@ -123,7 +123,6 @@ pipeline{
 				withAWS(region:'us-east-1', credentials:'Aws') {
 					sh '''
 						kubectl get pods
-						kubectl describe deployments
 					'''
 				}
 			}
