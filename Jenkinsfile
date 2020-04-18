@@ -3,8 +3,11 @@ pipeline{
     stages{
         stage('Lint HTML'){
             steps {
-                sh 'tidy -q -e *.html'
-				echo "Linting Done"
+                sh '''
+					tidy -q -e *.html
+					hadolint Dockerfile
+					echo "Linting Done"
+				'''
             }
         }
         stage('Build Docker Image') {
