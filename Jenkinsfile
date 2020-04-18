@@ -106,12 +106,14 @@ pipeline{
 			}
 		}
 
-		stage('Details of Deployments') {
+		stage('Details of Deployment') {
 			steps {
-				sh '''
+				withAWS(region:'us-east-1', credentials:'Aws') {
+					sh '''
 						kubectl get pods
 						kubectl describe deployments
-				'''
+					'''
+				}
 			}
 		}
 
