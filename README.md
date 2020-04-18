@@ -29,5 +29,13 @@ Once I completed our Continuous Integration I set up Continuous Deployment, whic
 * Pushing the built Docker container(s) to the Docker repository (I use AWS EKS);
 * Deploying these Docker container(s) to a small Kubernetes cluster. I build our own Kubernetes cluster. To deploy our Kubernetes cluster, I use within Jenkins as an independent pipeline.
 
-I followed this [steps] to make my pipeline('https://medium.com/@andresaaap/capstone-cloud-devops-nanodegree-4493ab439d48')
-('https://miro.medium.com/max/1202/1*2sJVNojcIfxO5W4ywKd3RA.png')
+I followed this [steps]('https://medium.com/@andresaaap/capstone-cloud-devops-nanodegree-4493ab439d48') to make my pipeline
+![img-1](Screenshots/steps.png)
+
+# Steps In Completing the Project
+
+* Step 1 : Propose and Scope the Project
+* Step 2 : Use Jenkins, and implement blue/green or rolling deployment.
+* Step 3 : Pick AWS Kubernetes as a Service, or build your own Kubernetes cluster
+* Step 4 : Build your pipeline
+* Step 5 : Test your pipeline
