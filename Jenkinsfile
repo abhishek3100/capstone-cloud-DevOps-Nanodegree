@@ -106,5 +106,14 @@ pipeline{
 			}
 		}
 
+		stage('Details of Deployments') {
+			step {
+				sh '''
+						kubectl get pods
+						kubectl describe deployments
+				'''
+			}
+		}
+
 	}
 }
