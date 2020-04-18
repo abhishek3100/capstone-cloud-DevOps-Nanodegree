@@ -5,7 +5,6 @@ pipeline{
             steps {
                 sh '''
 					tidy -q -e *.html
-					hadolint Dockerfile
 					echo "Linting Done"
 				'''
             }
