@@ -37,7 +37,7 @@ I followed this [steps](https://medium.com/@andresaaap/capstone-cloud-devops-nan
 # Steps In Completing the Project
 
 * Step 1 : Propose and Scope the Project
-* Step 2 : Use Jenkins, and implement blue/green or rolling deployment.
-* Step 3 : Pick AWS Kubernetes as a Service, or build your own Kubernetes cluster
-* Step 4 : Build your pipeline
-* Step 5 : Test your pipeline
+* Step 2 : Using Jenkins, and implement blue/green or rolling deployment.
+* Step 3 : Pick AWS Kubernetes as a Service, or building own Kubernetes cluster
+* Step 4 : Building our pipeline
+* Step 5 : Testing our pipeline
