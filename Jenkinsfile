@@ -107,7 +107,7 @@ pipeline{
 		}
 
 		stage('Details of Deployments') {
-			step {
+			steps {
 				sh '''
 						kubectl get pods
 						kubectl describe deployments
